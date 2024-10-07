@@ -1,4 +1,3 @@
-
 ```markdown
 # Estructura de Clasificación de Mensajes
 
@@ -9,10 +8,10 @@
   - `!`: Indica un error o una advertencia.
   - `*`: Indica una acción que debe tomarse.
 - **Ejemplo**: 
-  ```
+  
   { ! Error al conectar a la base de datos }
   { * Actualización exitosa }
-  ```
+  
 
 ## 2. Mensajes Moderados `[]`
 
@@ -21,10 +20,10 @@
   - `+`: Indica información adicional o progreso.
   - `-`: Indica una reducción o un cambio negativo.
 - **Ejemplo**:
-  ```
+  
   [ + Nueva característica añadida ]
   [ - Reducción del límite de uso ]
-  ```
+  
 
 ## 3. Avisos `()`
 
@@ -33,10 +32,10 @@
   - `?`: Indica una pregunta o un recordatorio.
   - `~`: Indica un aviso de cambio próximo o de planificación.
 - **Ejemplo**:
-  ```
+  
   ( ? ¿Deseas continuar con la operación? )
   ( ~ Mantenimiento programado para el fin de semana )
-  ```
+  
 
 ## Ejemplo de Uso
 
@@ -58,5 +57,5 @@ void main() {
 ## Resumen
 
 Con esta estructura, puedes clasificar tus mensajes de manera clara y concisa. Los símbolos adicionales te permiten transmitir matices en la información que estás compartiendo, mejorando así la legibilidad y comprensión de los mensajes en tu consola. ¡Espero que te sea útil!
-```
+
 
